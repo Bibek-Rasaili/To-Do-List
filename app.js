@@ -50,17 +50,10 @@ app.get("/work", function(req, res) {
   });
 });
 
-// *****
-// This is unnecessary because the form from which post is called is directed at "/"
-// Therefore a logic has been performed in app.post("/", ..) to determine/differentiate,
-// If the new item is for / (homepage) or /work (work) page
-// ________________
-// app.post("/work", function(req, res) {
-//   let items = req.body.newItem;
-//   workItems.push(items);
-//
-//   res.redirect("/work");
-// });
+//to render the about page
+app.get("/about", function(req, res){
+  res.render("about");
+});
 
 app.listen(3000, function() {
   console.log("Server is listening on port 3000");

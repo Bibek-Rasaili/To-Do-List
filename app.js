@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 
 const date = require(__dirname+"/date.js");
 
-console.log(date);
+console.log(date());
 
 const app = express();
 

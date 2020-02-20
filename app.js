@@ -3,8 +3,6 @@ const bodyParser = require('body-parser');
 
 const date = require(__dirname+"/date.js");
 
-console.log(date());
-
 const app = express();
 
 let items = ["Buy Food", "Cook Food", "Eat Food"];
@@ -20,6 +18,7 @@ app.set('view engine', 'ejs'); //use ejs as view engine
 
 app.get("/", function(req, res) {
 
+  let day = date();
 
   res.render("list", {
     listTitle: day,

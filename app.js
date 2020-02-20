@@ -3,6 +3,8 @@ const bodyParser = require('body-parser');
 
 const date = require(__dirname+"/date.js");
 
+console.log(date);
+
 const app = express();
 
 let items = ["Buy Food", "Cook Food", "Eat Food"];

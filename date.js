@@ -1,5 +1,5 @@
 
-module.exports.getDate = function() {
+exports.getDate = function() {
   let today = new Date();
 
   let options = {
@@ -13,7 +13,7 @@ module.exports.getDate = function() {
   return day;
 }
 
-module.exports.getDay = function() {
+exports.getDay = function() {
   let today = new Date();
 
   let options = {
@@ -24,6 +24,3 @@ module.exports.getDay = function() {
 
   return day;
 }
-
-
-console.log(module.exports);

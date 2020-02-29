@@ -110,18 +110,19 @@ footer {
     max-width: 90%;
   }
   input[type="text"] {
-    width: 90%;
+    width: 80%;
 
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
 
   h1 {
     font-size: 3rem;
   }
   p {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
   button {
-    margin-right: 10px;
+    font-size: 2rem;
+    margin: auto;
   }
 }

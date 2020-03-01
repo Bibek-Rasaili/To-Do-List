@@ -1,6 +1,5 @@
 html {
   background-color: #E4E9FD;
-
   /* min-height: 1000px; */
   height: 100%;
   font-family: 'helvetica neue';
@@ -104,22 +103,22 @@ footer {
   text-align: center;
 }
 
-/* 600px */
-@media screen and (max-device-width: 800px) {
 
+/* 800px and smaller */
+@media screen and (max-device-width: 800px) {
   .box {
     max-width: 80%;
   }
 
   input[type="text"] {
     width: 85%;
-
     font-size: 2rem;
   }
 
   h1 {
     font-size: 3rem;
   }
+
   p {
     font-size: 2rem;
   }
@@ -127,6 +126,7 @@ footer {
   form {
     margin-left: 15px;
   }
+
   button {
     font-size: 2rem;
     margin: auto;
@@ -140,22 +140,31 @@ footer {
 
   input[type="text"] {
     width: 80%;
-
     font-size: 3rem;
   }
 
-    h1 {
-      font-size: 4rem;
-    }
-    p {
-      font-size: 3rem;
-    }
+  h1 {
+    font-size: 4rem;
+  }
 
-    form {
-      margin-left: 10px;
-    }
-    button {
-      font-size: 2.5rem;
-      margin: auto;
-    }
+  p {
+    font-size: 3rem;
+  }
+
+  form {
+    margin-left: 10px;
+  }
+
+  button {
+    font-size: 2.5rem;
+    margin: auto;
+  }
 }
+
+/* Future Improvements:
+
+Session can be used to store DIFFERENT user input
+(as the webpage is created for easy accessibility i.e. no log-in)
+
+(copy in GitHub commit)
+*/

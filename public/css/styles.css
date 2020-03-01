@@ -104,13 +104,15 @@ footer {
   text-align: center;
 }
 
+/* 600px */
+@media screen and (max-width: 800px) {
 
-@media screen and (max-width:500px) {
   .box {
-    max-width: 90%;
+    max-width: 80%;
   }
+
   input[type="text"] {
-    width: 80%;
+    width: 85%;
 
     font-size: 2rem;
   }
@@ -121,8 +123,26 @@ footer {
   p {
     font-size: 2rem;
   }
+
+  form {
+    margin-left: 15px;
+  }
   button {
     font-size: 2rem;
     margin: auto;
   }
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    max-width: 90%;
+  }
+
+  input[type="text"] {
+    width: 80%;
+  }
+
+  /* form {
+    margin-left: 5px;
+  } */
 }
